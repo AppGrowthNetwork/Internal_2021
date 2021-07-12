@@ -20,3 +20,4 @@ curl -X POST \
 https://appleid.apple.com/auth/oauth2/token?grant_type=client_credentials&
 client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&scope=searchadsorg
 ```
+For more info on API usage: https://developer.apple.com/documentation/apple_search_ads/call_the_apple_search_ads_api
