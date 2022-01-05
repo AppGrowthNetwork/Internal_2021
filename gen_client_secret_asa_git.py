@@ -1,11 +1,12 @@
 import jwt
 import datetime as dt
 
-client_id = 'INPUT YOUR CLIENT ID'
-team_id = 'INPUT YOUR TEAM ID' 
-key_id = 'INPUT YOUR KEY ID' 
+client_id = 'SEARCHADS.74d58e63-a7f9-45a5-a98c-0f9d5f15ea6d'
+team_id = 'SEARCHADS.74d58e63-a7f9-45a5-a98c-0f9d5f15ea6d' 
+key_id = '45724264-18f9-41d0-b252-92451dac1ce0' 
 audience = 'https://appleid.apple.com'
 alg = 'ES256'
+
 
 # Define issue timestamp.
 issued_at_timestamp = int(dt.datetime.utcnow().timestamp())
